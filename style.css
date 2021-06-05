@@ -71,12 +71,14 @@ nav ul li img{
   height:70px;
   
  }
-div{ text-align:center;
-  width: 100%;}
+div{ 
+  text-align:center;
+  width: 100%;
+}
 
 body {
   background-image: url("");
-  background-color: #05495a;
+  background-color: #ffffff;
   
  }
 
@@ -87,7 +89,7 @@ body {
   width:960px;
   height:450px;
   position: relative;
-  left:275px; 
+  left:200px; 
   top:110px 
 }
 
@@ -98,7 +100,7 @@ section img{
   height:375px;
   padding: 14px;
   position: relative;
-  left:275px; 
+  left:60px; 
   top:110px 
 
 }
@@ -108,11 +110,18 @@ section {
 
      
 }
+article{
+  height: 600px;
+}
 
 article img{
   margin-left:280px;
   width:480px;
   height:400px;
+  bottom: 40px;
+  left: px;
+  position: absolute;
+
   
 }
 article p{
@@ -124,8 +133,8 @@ article p{
  overflow: scroll;
  width:475px;
   height:400px;
-  top:pc;
-  right:215px;
+  top:130px;
+  right:200px;
   background-color: #f5f5f5;
 }
 footer{
@@ -188,26 +197,65 @@ a{
 }
 #contactinfo{
 
-  height: 800px ;
+  height: 600px ;
   width: 100%;
   position: relative;
   
 
 }
 #contactinfo img{
-  width: 400px;
-  height: 300px;
-  left: 450px;
-  position: relative;
+  width: 750px;
+  height: 600px;
+  left: 360px;
+  top: -425px;
+  
+}
+#contactinfo p{
+  
+  margin-top: 30px;
+  width: 80%;
+  text-align: center;
+  color: #131212;  
+    padding-bottom: .5em;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.6em;
+    font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    text-transform: none;
+
 }
 
+
 #hunter{
-  font-size: 40px;
+  height: 1000px;
+  font-size: 20px;
   background-color: black;
   width: 100%;
+
 }
 
 #hunter .par{
+margin-top: 30px;
+  width: 80%;
+  text-align: center;
+  color: #dddddd;  
+    padding-bottom: .5em;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.6em;
+    font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    text-transform: none;
 
-  width:40% ;
 }
